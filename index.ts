@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { Request, Response, NextFunction } from "express";
 import routes from "./src/app/routers/router";
 import { corsOpts } from "./src/app/config/app.config";
 
