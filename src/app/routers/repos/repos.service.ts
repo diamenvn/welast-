@@ -1,3 +1,3 @@
 export const getRepos = async () => {
-  return await fetch("https://mpdfdb7f7274b3ff5732.free.beeceptor.com/s");
+  return await fetch("https://api.github.com/users/freeCodeCamp/repos");
 };
